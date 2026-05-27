@@ -2,7 +2,7 @@ import streamlit as st
 import requests as rq
 import pandas as pd
 
-server_loc = " https://expense-tracker-backend-nhdh.onrender.com"
+server_loc = st.secrets["server_url"]
 
 
 
